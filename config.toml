@@ -1,3 +1,23 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://dns.repinger.my.id/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Privacy DNS'
+theme = "hugo-bearcub"
+copyright = "© 2023"
+defaultContentLanguage = "en"
+
+# Generate a nice robots.txt for SEO
+enableRobotsTXT = true
+
+[minify]
+	minifyOutput = true
+
+[languages]
+  [languages.en]
+    languageName = "en-US 🇺🇸"
+    LanguageCode = "en-US"
+    contentDir = "content"
+    [languages.en.params]
+      madeWith = "[@repinger](https://github.com/repinger)"
+
+[params]
+	favicon = "favicon.png"
