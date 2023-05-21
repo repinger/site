@@ -6,7 +6,7 @@ weight: 1
 
 # Private, encrypted, and secure DNS
 
-Yet another [ad/tracker/malware-blocking (over one million domains blocked), no-logs, and free public DNS](https://dns.repinger.my.id).
+Yet another ad/tracker/malware-blocking (over one million domains blocked), no-logs, and free public DNS.
 
 
 ## DNS over TLS (DoT)
