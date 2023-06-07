@@ -1,5 +1,5 @@
 ---
-title: "Home"
+title: ""
 menu: "main"
 weight: 1
 ---
