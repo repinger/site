@@ -1,5 +1,4 @@
 ---
-title: ""
 menu: "main"
 weight: 1
 ---
@@ -63,6 +62,8 @@ sdns://BAMAAAAAAAAAEzIwMy4xOTQuMTEyLjIyODo4NTMgRE69Z7uD-IB7OSHpOKyReLiCvVCq2xEjH
 sdns://BAMAAAAAAAAAF1syMDAxOmRmMDoyN2I6OjI0MF06ODUzIEROvWe7g_iAezkh6TiskXi4gr1QqtsRIx8ETPXwjffOEmRucy5yZXBpbmdlci5teS5pZA
 ```
 
-## Why no plain DNS?
+## Why no *plain* DNS?
 
-Largely due to [transparent DNS proxies](https://dnsleaktest.com/what-is-transparent-dns-proxy.html) in which sending unencrypted queries to a third-party DNS service defeats the purpose of secure DNS.
+Mainly due to [transparent DNS proxies](https://dnsleaktest.com/what-is-transparent-dns-proxy.html); a simple trick that will workaround the issue is to change the serving-port other than 53/{tcp,udp}.
+
+Even with the aforementioned workaround, incoming and outcoming DNS queries are **still unencrypted** and anyone with the ability can snoop right in effortlessly. Sending unencrypted queries to a third-party DNS service defeats the whole purpose of secure DNS.
