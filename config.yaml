@@ -1,0 +1,16 @@
+baseURL: 'https://repinger.my.id/'
+languageCode: en-us
+title: repinger
+theme: terminal
+minify:
+  minifyOutput: true
+params:
+  centerTheme: true
+  favicon: favicon.png
+  themeColor: orange
+languages:
+  en:
+    copyright: © 2023
+    params:
+      logo:
+        logoText: repinger
