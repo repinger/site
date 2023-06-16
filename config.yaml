@@ -1,0 +1,19 @@
+baseURL: 'https://dns.repinger.my.id/'
+languageCode: en-us
+title: Privacy DNS
+theme: hugo-bearcub
+copyright: © 2023
+defaultContentLanguage: en
+enableRobotsTXT: true
+minify:
+  minifyOutput: true
+languages:
+  en:
+    languageName: "en-US 🇺🇸"
+    LanguageCode: en-US
+    contentDir: content
+    params:
+      madeWith: '[@repinger](https://github.com/repinger)'
+params:
+  favicon: favicon.png
+  hideHeader: true
