@@ -1,0 +1,4 @@
+{{ if not .Site.Params.hideHeader }}
+<a href="{{ relURL .Site.Home.Permalink }}" class="title"><h1>{{ .Site.Title }}</h1></a>
+<nav>{{- partial "nav.html" . -}}</nav>
+{{ end }}
