@@ -13,7 +13,7 @@ languages:
     LanguageCode: en-US
     contentDir: content
     params:
-      madeWith: '[@repinger](https://github.com/repinger)'
+      madeWith: '[@repinger](https://repinger.my.id)'
 params:
   favicon: favicon.png
   hideHeader: true
