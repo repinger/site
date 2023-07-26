@@ -18,12 +18,7 @@ tls://dns.repinger.my.id / dns.repinger.my.id
 
 ### IPv4 stamp
 ```
-sdns://AwMAAAAAAAAADjQ1LjE0OS4xODcuMTY3IGpQYrDReNVW8WOxOxsPGUNdAliCkcx1WJ3-5usRyNXDEmRucy5yZXBpbmdlci5teS5pZA
-```
-
-### IPv6 stamp
-```
-sdns://AwMAAAAAAAAAHVsyNDA3OjZhYzA6MjoyOjE6MTo0N2Y2OjE2YmRdIGpQYrDReNVW8WOxOxsPGUNdAliCkcx1WJ3-5usRyNXDEmRucy5yZXBpbmdlci5teS5pZA
+sdns://AwMAAAAAAAAADjEwOC4xMzcuNjguMjA1IGpQYrDReNVW8WOxOxsPGUNdAliCkcx1WJ3-5usRyNXDFmRucy5yZXBpbmdlci5teS5pZDo4NTM
 ```
 
 ## DNS over HTTPS (DoH)
@@ -36,12 +31,7 @@ https://dns.repinger.my.id/dns-query
 
 ### IPv4 stamp
 ```
-sdns://AgMAAAAAAAAADjQ1LjE0OS4xODcuMTY3IGpQYrDReNVW8WOxOxsPGUNdAliCkcx1WJ3-5usRyNXDEmRucy5yZXBpbmdlci5teS5pZAovZG5zLXF1ZXJ5
-```
-
-### IPv6 stamp
-```
-sdns://AgMAAAAAAAAAHVsyNDA3OjZhYzA6MjoyOjE6MTo0N2Y2OjE2YmRdIGpQYrDReNVW8WOxOxsPGUNdAliCkcx1WJ3-5usRyNXDEmRucy5yZXBpbmdlci5teS5pZAovZG5zLXF1ZXJ5
+sdns://AgMAAAAAAAAADjEwOC4xMzcuNjguMjA1IGpQYrDReNVW8WOxOxsPGUNdAliCkcx1WJ3-5usRyNXDFmRucy5yZXBpbmdlci5teS5pZDo0NDMKL2Rucy1xdWVyeQ
 ```
 
 ## DNS over QUIC (DoQ)
@@ -54,12 +44,7 @@ quic://dns.repinger.my.id
 
 ### IPv4 stamp
 ```
-sdns://BAMAAAAAAAAADjQ1LjE0OS4xODcuMTY3IGpQYrDReNVW8WOxOxsPGUNdAliCkcx1WJ3-5usRyNXDEmRucy5yZXBpbmdlci5teS5pZA
-```
-
-### IPv6 stamp
-```
-sdns://BAMAAAAAAAAAHVsyNDA3OjZhYzA6MjoyOjE6MTo0N2Y2OjE2YmRdIGpQYrDReNVW8WOxOxsPGUNdAliCkcx1WJ3-5usRyNXDEmRucy5yZXBpbmdlci5teS5pZA
+sdns://BAMAAAAAAAAADjEwOC4xMzcuNjguMjA1IGpQYrDReNVW8WOxOxsPGUNdAliCkcx1WJ3-5usRyNXDFmRucy5yZXBpbmdlci5teS5pZDo4NTM
 ```
 
 ## Why no *plain* DNS?
