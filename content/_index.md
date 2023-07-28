@@ -21,8 +21,8 @@ tls://dns.repinger.my.id / dns.repinger.my.id
 sdns://AwMAAAAAAAAADjEwOC4xMzcuNjguMjA1IGpQYrDReNVW8WOxOxsPGUNdAliCkcx1WJ3-5usRyNXDFmRucy5yZXBpbmdlci5teS5pZDo4NTM
 ```
 
-## DNS over HTTPS (DoH)
-Port 443/tcp
+## DNS over HTTPS/{2,3} (DoH)
+Port 443/{tcp,udp}
 
 ### Usage
 ```
