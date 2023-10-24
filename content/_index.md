@@ -21,6 +21,11 @@ tls://dns.repinger.my.id / dns.repinger.my.id
 sdns://AwMAAAAAAAAADDQzLjIxOC40Ny4xMCBqUGKw0XjVVvFjsTsbDxlDXQJYgpHMdVid_ubrEcjVwxZkbnMucmVwaW5nZXIubXkuaWQ6ODUz
 ```
 
+### IPv6 stamp
+```
+sdns://AwMAAAAAAAAAFFsyMDAxOjQ3MDozNTo1MjE6OjJdIGpQYrDReNVW8WOxOxsPGUNdAliCkcx1WJ3-5usRyNXDEmRucy5yZXBpbmdlci5teS5pZA
+```
+
 ## DNS over HTTPS/{2,3} (DoH)
 Port 443/{tcp,udp}
 
@@ -34,6 +39,11 @@ https://dns.repinger.my.id/dns-query
 sdns://AgMAAAAAAAAADDQzLjIxOC40Ny4xMCBqUGKw0XjVVvFjsTsbDxlDXQJYgpHMdVid_ubrEcjVwxZkbnMucmVwaW5nZXIubXkuaWQ6NDQzCi9kbnMtcXVlcnk
 ```
 
+### IPv6 stamp
+```
+sdns://AgMAAAAAAAAAFFsyMDAxOjQ3MDozNTo1MjE6OjJdIGpQYrDReNVW8WOxOxsPGUNdAliCkcx1WJ3-5usRyNXDEmRucy5yZXBpbmdlci5teS5pZAovZG5zLXF1ZXJ5
+```
+
 ## DNS over QUIC (DoQ)
 Port 853/udp
 
@@ -45,6 +55,11 @@ quic://dns.repinger.my.id
 ### IPv4 stamp
 ```
 sdns://BAMAAAAAAAAADDQzLjIxOC40Ny4xMCBqUGKw0XjVVvFjsTsbDxlDXQJYgpHMdVid_ubrEcjVwxZkbnMucmVwaW5nZXIubXkuaWQ6ODUz
+```
+
+### IPv6 stamp
+```
+sdns://BAMAAAAAAAAAFFsyMDAxOjQ3MDozNTo1MjE6OjJdIGpQYrDReNVW8WOxOxsPGUNdAliCkcx1WJ3-5usRyNXDEmRucy5yZXBpbmdlci5teS5pZA
 ```
 
 ## Why no *plain* DNS?
