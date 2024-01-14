@@ -2,7 +2,7 @@ baseURL: 'https://dns.repinger.my.id/'
 languageCode: en-us
 title: Privacy DNS
 theme: hugo-bearcub
-copyright: © 2023
+copyright: © 2024
 defaultContentLanguage: en
 enableRobotsTXT: true
 minify:
