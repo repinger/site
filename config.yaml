@@ -11,7 +11,7 @@ params:
   hidePowered: true
 languages:
   en:
-    copyright: © 2023 | @repinger
+    copyright: © 2024 | @repinger
     params:
       logo:
         logoText: repinger
