@@ -5,7 +5,7 @@ weight: 1
 
 # Private, encrypted, and secure DNS
 
-Yet another ad/tracker/malware-blocking (over one million domains blocked), no-logs, and free public DNS.
+Yet another ad/tracker/malware-blocking, no-log, and free public DNS with over one million malicious domains blocked.
 
 
 ## DNS over TLS (DoT)
