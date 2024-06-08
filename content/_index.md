@@ -16,4 +16,3 @@ Socials:
 * [GitHub (?)](https://github.com/repinger)
 * [Matrix](https://matrix.to/#/@repinger:matrix.org)
 * [Telegram](https://t.me/repinger)
-* [Twitter](https://twitter.com/reykjaviktown9)
