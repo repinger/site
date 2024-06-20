@@ -6,8 +6,8 @@ framed = true
 
 My stuff:
 
-* [Ad-blocking DNS](https://dns.repinger.my.id)
-* [Files](https://files.repinger.my.id)
+* [Ad-blocking DNS](https://dns.repinger.com)
+* [Files](https://files.repinger.com)
 
 ---
 
