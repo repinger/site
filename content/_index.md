@@ -13,17 +13,17 @@ Port 853/tcp
 
 ### Usage
 ```
-tls://dns.repinger.my.id / dns.repinger.my.id
+tls://dns.repinger.com / dns.repinger.com
 ```
 
 ### IPv4 stamp
 ```
-sdns://AwMAAAAAAAAADzEwMy4yMTUuMjI5LjE0NiBqUGKw0XjVVvFjsTsbDxlDXQJYgpHMdVid_ubrEcjVwxZkbnMucmVwaW5nZXIubXkuaWQ6ODUz
+sdns://AwMAAAAAAAAADzEwMy4yMTUuMjI5LjE0NiBqUGKw0XjVVvFjsTsbDxlDXQJYgpHMdVid_ubrEcjVwxRkbnMucmVwaW5nZXIuY29tOjg1Mw
 ```
 
 ### IPv6 stamp
 ```
-sdns://AwMAAAAAAAAAJVsyMDAxOjkyMDoxMDAxOjExMTE6YTUzZjo1NmEzOjhmZDE6MV0galBisNF41VbxY7E7Gw8ZQ10CWIKRzHVYnf7m6xHI1cMSZG5zLnJlcGluZ2VyLm15Lmlk
+sdns://AwMAAAAAAAAAJVsyNDAxOjkyMDoxMDAxOjExMTE6MWEzZDozMmQ4OjU3NjI6MV0galBisNF41VbxY7E7Gw8ZQ10CWIKRzHVYnf7m6xHI1cMUZG5zLnJlcGluZ2VyLmNvbTo4NTM
 ```
 
 ## DNS over HTTPS/{2,3} (DoH)
@@ -31,17 +31,17 @@ Port 443/{tcp,udp}
 
 ### Usage
 ```
-https://dns.repinger.my.id/dns-query
+https://dns.repinger.com/dns-query
 ```
 
 ### IPv4 stamp
 ```
-sdns://AgMAAAAAAAAADzEwMy4yMTUuMjI5LjE0NiBqUGKw0XjVVvFjsTsbDxlDXQJYgpHMdVid_ubrEcjVwxZkbnMucmVwaW5nZXIubXkuaWQ6NDQzCi9kbnMtcXVlcnk
+sdns://AgMAAAAAAAAADzEwMy4yMTUuMjI5LjE0NiBqUGKw0XjVVvFjsTsbDxlDXQJYgpHMdVid_ubrEcjVwxRkbnMucmVwaW5nZXIuY29tOjQ0MwovZG5zLXF1ZXJ5
 ```
 
 ### IPv6 stamp
 ```
-sdns://AgMAAAAAAAAAJVsyMDAxOjkyMDoxMDAxOjExMTE6YTUzZjo1NmEzOjhmZDE6MV0galBisNF41VbxY7E7Gw8ZQ10CWIKRzHVYnf7m6xHI1cMSZG5zLnJlcGluZ2VyLm15LmlkCi9kbnMtcXVlcnk
+sdns://AgMAAAAAAAAAJVsyNDAxOjkyMDoxMDAxOjExMTE6MWEzZDozMmQ4OjU3NjI6MV0galBisNF41VbxY7E7Gw8ZQ10CWIKRzHVYnf7m6xHI1cMQZG5zLnJlcGluZ2VyLmNvbQovZG5zLXF1ZXJ5
 ```
 
 ## DNS over QUIC (DoQ)
@@ -49,17 +49,17 @@ Port 853/udp
 
 ### Usage
 ```
-quic://dns.repinger.my.id
+quic://dns.repinger.com
 ```
 
 ### IPv4 stamp
 ```
-sdns://BAMAAAAAAAAADzEwMy4yMTUuMjI5LjE0NiBqUGKw0XjVVvFjsTsbDxlDXQJYgpHMdVid_ubrEcjVwxZkbnMucmVwaW5nZXIubXkuaWQ6ODUz
+sdns://BAMAAAAAAAAADzEwMy4yMTUuMjI5LjE0NiBqUGKw0XjVVvFjsTsbDxlDXQJYgpHMdVid_ubrEcjVwxRkbnMucmVwaW5nZXIuY29tOjg1Mw
 ```
 
 ### IPv6 stamp
 ```
-sdns://BAMAAAAAAAAAJVsyMDAxOjkyMDoxMDAxOjExMTE6YTUzZjo1NmEzOjhmZDE6MV0galBisNF41VbxY7E7Gw8ZQ10CWIKRzHVYnf7m6xHI1cMSZG5zLnJlcGluZ2VyLm15Lmlk
+sdns://BAMAAAAAAAAAJVsyNDAxOjkyMDoxMDAxOjExMTE6MWEzZDozMmQ4OjU3NjI6MV0galBisNF41VbxY7E7Gw8ZQ10CWIKRzHVYnf7m6xHI1cMQZG5zLnJlcGluZ2VyLmNvbQ
 ```
 
 ## Why no *plain* DNS?

@@ -1,4 +1,4 @@
-baseURL: 'https://dns.repinger.my.id/'
+baseURL: 'https://dns.repinger.com/'
 languageCode: en-us
 title: Privacy DNS
 theme: hugo-bearcub
@@ -13,7 +13,7 @@ languages:
     LanguageCode: en-US
     contentDir: content
     params:
-      madeWith: '[@repinger](https://repinger.my.id)'
+      madeWith: '[@repinger](https://repinger.com)'
 params:
   favicon: favicon.png
   hideHeader: true
