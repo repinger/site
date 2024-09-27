@@ -1,6 +1,7 @@
 baseURL: 'https://dns.repinger.com/'
 languageCode: en-us
-title: Privacy DNS
+title: Privacy DNS - Fast, Secure, Encrypted DNS & Malware Protection
+description: Offers enhanced online security with Encrypted DNS and malware-blocking features.
 theme: hugo-bearcub
 copyright: © 2024
 defaultContentLanguage: en
