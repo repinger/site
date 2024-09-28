@@ -18,12 +18,12 @@ tls://dns.repinger.com / dns.repinger.com
 
 ### IPv4 stamp
 ```
-sdns://AwMAAAAAAAAADjEwMy4yMzUuNzMuMjQ0IGpQYrDReNVW8WOxOxsPGUNdAliCkcx1WJ3-5usRyNXDFGRucy5yZXBpbmdlci5jb206ODUz
+sdns://AwMAAAAAAAAADjEwMy4xNTcuMjYuMTExIGpQYrDReNVW8WOxOxsPGUNdAliCkcx1WJ3-5usRyNXDFGRucy5yZXBpbmdlci5jb206ODUz
 ```
 
 ### IPv6 stamp
 ```
-sdns://AwMAAAAAAAAAFFsyMDAxOjQ3MDozNToyY2Q6OjJdIGpQYrDReNVW8WOxOxsPGUNdAliCkcx1WJ3-5usRyNXDFGRucy5yZXBpbmdlci5jb206ODUz
+sdns://AwMAAAAAAAAAIVsyMDAxOjQ3MDozNjozZmM6MDpmZWVkOmRhZDpiMDU1XSBqUGKw0XjVVvFjsTsbDxlDXQJYgpHMdVid_ubrEcjVwxRkbnMucmVwaW5nZXIuY29tOjg1Mw
 ```
 
 ## DNS over HTTPS/{2,3} (DoH)
@@ -36,12 +36,12 @@ https://dns.repinger.com/dns-query
 
 ### IPv4 stamp
 ```
-sdns://AgMAAAAAAAAADjEwMy4yMzUuNzMuMjQ0IGpQYrDReNVW8WOxOxsPGUNdAliCkcx1WJ3-5usRyNXDFGRucy5yZXBpbmdlci5jb206NDQzCi9kbnMtcXVlcnk
+sdns://AgMAAAAAAAAADjEwMy4xNTcuMjYuMTExIGpQYrDReNVW8WOxOxsPGUNdAliCkcx1WJ3-5usRyNXDFGRucy5yZXBpbmdlci5jb206NDQzCi9kbnMtcXVlcnk
 ```
 
 ### IPv6 stamp
 ```
-sdns://AgMAAAAAAAAAFFsyMDAxOjQ3MDozNToyY2Q6OjJdIGpQYrDReNVW8WOxOxsPGUNdAliCkcx1WJ3-5usRyNXDEGRucy5yZXBpbmdlci5jb20KL2Rucy1xdWVyeQ
+sdns://AgMAAAAAAAAAIVsyMDAxOjQ3MDozNjozZmM6MDpmZWVkOmRhZDpiMDU1XSBqUGKw0XjVVvFjsTsbDxlDXQJYgpHMdVid_ubrEcjVwxBkbnMucmVwaW5nZXIuY29tCi9kbnMtcXVlcnk
 ```
 
 ## DNS over QUIC (DoQ)
@@ -54,16 +54,16 @@ quic://dns.repinger.com
 
 ### IPv4 stamp
 ```
-sdns://BAMAAAAAAAAADjEwMy4yMzUuNzMuMjQ0IGpQYrDReNVW8WOxOxsPGUNdAliCkcx1WJ3-5usRyNXDFGRucy5yZXBpbmdlci5jb206ODUz
+sdns://BAMAAAAAAAAADjEwMy4xNTcuMjYuMTExIGpQYrDReNVW8WOxOxsPGUNdAliCkcx1WJ3-5usRyNXDFGRucy5yZXBpbmdlci5jb206ODUz
 ```
 
 ### IPv6 stamp
 ```
-sdns://BAMAAAAAAAAAFFsyMDAxOjQ3MDozNToyY2Q6OjJdIGpQYrDReNVW8WOxOxsPGUNdAliCkcx1WJ3-5usRyNXDEGRucy5yZXBpbmdlci5jb20
+sdns://BAMAAAAAAAAAIVsyMDAxOjQ3MDozNjozZmM6MDpmZWVkOmRhZDpiMDU1XSBqUGKw0XjVVvFjsTsbDxlDXQJYgpHMdVid_ubrEcjVwxBkbnMucmVwaW5nZXIuY29t
 ```
 
 ## Why no *plain* DNS?
 
 Mainly due to [transparent DNS proxies](https://dnsleaktest.com/what-is-transparent-dns-proxy.html); a simple trick that will workaround the issue is to change the serving-port other than 53/{tcp,udp}.
 
-Even with the aforementioned workaround, incoming and outcoming DNS queries are **still unencrypted** and anyone with the ability can snoop right in effortlessly. Sending unencrypted queries to a third-party DNS service defeats the whole purpose of secure DNS.
+Even with the aforementioned workaround, incoming and outcoming DNS queries are **still unencrypted** and anyone with the ability can see what you're up to effortlessly. Sending unencrypted queries to a third-party DNS service defeats the whole purpose of secure DNS.
