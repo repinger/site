@@ -12,12 +12,9 @@ RUN apk update && apk add \
 RUN git submodule update --init \
 	&& hugo
 
-FROM nginx:mainline-alpine
+FROM macbre/nginx-http3:latest
 
-WORKDIR /usr/share/nginx/html
-
-RUN rm -fr *
+WORKDIR /web
+COPY --from=builder /web/public .
 
 COPY nginx.conf /etc/nginx
-
-COPY --from=builder /web/public .
