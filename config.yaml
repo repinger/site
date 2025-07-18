@@ -7,7 +7,6 @@ minify:
 params:
   centerTheme: true
   favicon: favicon.png
-  themeColor: orange
   hidePowered: true
 languages:
   en:
