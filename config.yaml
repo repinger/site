@@ -16,5 +16,6 @@ languages:
     params:
       madeWith: '[@repinger](https://repinger.com)'
 params:
+  description: Offers enhanced online security with Encrypted DNS and malware-blocking features.
   favicon: favicon.png
   hideHeader: true
