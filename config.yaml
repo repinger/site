@@ -2,6 +2,7 @@ baseURL: 'https://repinger.com/'
 languageCode: en-us
 title: repinger
 theme: terminal
+enableRobotsTXT: true
 minify:
   minifyOutput: true
 params:
