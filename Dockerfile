@@ -12,7 +12,7 @@ RUN apk update && apk add \
 RUN git submodule update --init \
 	&& hugo
 
-FROM macbre/nginx-http3:latest
+FROM nginx:stable-alpine
 
 WORKDIR /web
 COPY --from=builder /web/public .
